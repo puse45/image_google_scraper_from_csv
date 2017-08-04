@@ -14,7 +14,6 @@ def download_image(query,name,DIR,keyword):
     query = query +" "+ keyword
     query =query.replace(" ", "+")
     query =query.lower()
-    # query='+'.join(query)
 
     url="https://www.google.co.in/search?q="+query+"&source=lnms&tbm=isch"
 
